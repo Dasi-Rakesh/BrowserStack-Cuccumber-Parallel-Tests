@@ -6,6 +6,7 @@ Set User Credentials for Browser Stack:
 
 T0 execute the Test in BrowserStack:
 1. Open the testng.xml and run the suite
-2. To run the Test from the command line: 
-java -cp <path of lib>; <path of out or bin folder>  org.testng.TestNG <path of testng>/testng.xml
+2. To run test using the maven command: "mvn clean test -DsuiteXmlFile=testng.xml"
+3. To run the Test from the command line: 
+"java -cp <path of lib>; <path of out or bin folder>  org.testng.TestNG <path of testng>/testng.xml"
 
