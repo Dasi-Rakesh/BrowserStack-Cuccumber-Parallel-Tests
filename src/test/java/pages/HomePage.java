@@ -42,8 +42,6 @@ public class HomePage extends BasePage {
         } else {
             javascriptExecutor.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Title mismatched!\"}}");
         }
-
-
     }
 
     public void clickOnCloseButton() {

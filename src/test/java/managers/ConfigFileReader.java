@@ -45,5 +45,13 @@ public class ConfigFileReader {
             throw new RuntimeException("Site Admin Url not specified in the Configuration.properties file.");
     }
 
+    public String getEnvironment() {
+        String url = properties.getProperty("environment");
+        if (url != null)
+            return url;
+        else
+            throw new RuntimeException("Site Admin Url not specified in the Configuration.properties file.");
+    }
+
 
 }
